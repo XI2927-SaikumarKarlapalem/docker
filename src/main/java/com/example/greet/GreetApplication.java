@@ -16,7 +16,7 @@ public class GreetApplication {
 	@GetMapping("/greet")
 	public String greet()
 	{
-		String message="hello";
+		String message="hello world,welcome to my world ";
 		return message;
 	}
 	
